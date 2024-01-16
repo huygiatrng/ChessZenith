@@ -11,22 +11,20 @@ Chess Zenith is an advanced chess AI developed using a combination of Neural Net
 - **Monte Carlo Tree Search**: Strategic move exploration and decision-making.
 - **Scalability & Customization**: Adjustable parameters for tailored AI behavior.
 
-## Usage
+## Install
 - Clone the repository: `git clone https://github.com/huygiatrng/ChessZenith`
 - Install dependencies: `pip install -r requirements.txt`
-- Run the AI: `python3 chess_zenith.py`
 
 ## Requirements
-- Python 3.x
+- Python 3.8
 - PyTorch
 - Chess library (python-chess)
 - GPU (recommended for training)
 
-## Contributions
-Contributions are welcome! Please read `CONTRIBUTING.md` for guidelines.
+You may consider having a CPU with a high number of cores, which can be helpful for parallel self-play.
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `Apache-2.0 license` for more information.
 
 ## Acknowledgments
 - DeepMind's AlphaZero
