@@ -89,9 +89,9 @@ class ZenithModel:
             value_loss = F.mse_loss(out_value, value_targets)
             loss = policy_loss + value_loss
 
-            optimizer.zero_grad()
+            self.optimizer.zero_grad()
             loss.backward()
-            optimizer.step()
+            self.optimizer.step()
 
     def learn(self, memory=[], resume=False):
         if resume:
